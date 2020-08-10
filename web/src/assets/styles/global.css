@@ -1,7 +1,5 @@
 :root {
     font-size: 60%;
-
-
     --color-background: #F0F0F7;
     --color-primary-lighter: #9871F5;
     --color-primary-light: #916BEA;
@@ -20,7 +18,6 @@
     --color-button-text: #FFFFFF;
     --color-box-base: #FFFFFF;
     --color-box-footer: #FAFAFC;
-  
 }
 
 * {
@@ -34,7 +31,7 @@ html, body, #root {
 }
 
 body {
-    background-color: var(--color-background);
+    background: var(--color-background);
 }
 
 #root {
@@ -53,7 +50,7 @@ body, input, button, textarea {
     max-width: 700px;
 }
 
-@media (min-width: 700px) {
+@media(min-width: 700px) {
     :root {
         font-size: 62.5%;
     }
